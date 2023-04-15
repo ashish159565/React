@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import InputField from './components/InputField';
 import TodoList from './components/TodoList';
-import { useSearchParams } from 'react-router-dom';
 import { Todo } from "./model";
 
 const App = () => {
